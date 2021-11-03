@@ -1,0 +1,29 @@
+bgColor='pink'
+background='https://images.pexels.com/photos/103123/pexels-photo-103123.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'
+image => alt attribute
+        width="200" (no need px)
+
+Absolute URLs vs. Relative URL
+relative URL (A local link)
+Absolute URLs (with the "https://www")
+
+video => controls, autoplay, height, loop, muted, poster, src, width, preload="auto|none|metadata"
+**adding large videos to a site won’t slow down the initial page load, if the preload attribute is set the right way, that is.
+**The preload attribute is ignored if autoplay is present, then browsers of course need to start downloading the video immediately..
+**Video metadata is all available information about a digital video file – like the author, date created, location shot, camera information and upload date.
+ref:https://www.canto.com/blog/video-metadata/
+ref:https://clubmate.fi/what-does-the-preload-attribute-in-the-video-element-do
+
+source => To make it work in all browsers
+
+for picture tag(media, srcset)
+<source media="(min-width:650px)" srcset="img_pink_flowers.jpg">
+
+
+
+for get youtube source video embed code
+On a computer, go to the YouTube video or playlist you want to embed.
+Click SHARE .
+From the list of Share options, click Embed.
+From the box that appears, copy the HTML code.
+Paste the code into your website HTML.
