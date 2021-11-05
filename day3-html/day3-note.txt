@@ -1,0 +1,7 @@
+For cite
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/cite
+https://stackoverflow.com/questions/4537327/what-is-the-difference-between-cite-em-and-i-tags-of-html
+
+
+For block and inline
+https://www.w3schools.com/html/html_blocks.asp
