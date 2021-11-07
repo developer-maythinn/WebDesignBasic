@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Options</title>
+</head>
+<body>
+    <input list="lists">
+    <datalist id="lists">
+        <option value="Apple"></option>
+        <option value="Orange"></option>
+        <option value="Mango"></option>
+    </datalist>
+    <br>
+    <form>
+        <label for="fruits">Choose a fruit:</label>
+        <select multiple id="fruits">
+            <option value="Apple">Apple</option>
+            <option value="Orange">Orange</option>
+            <option value="Mango">Mango</option>
+        </select>
+        <button type="submit">Click Me</button>
+    </form>
+    <hr>
+    <select>
+        <optgroup label="Fruits">
+            <option value="Apple" disabled>Apple</option>
+            <option value="Orange">Orange</option>
+            <option value="Mango" selected>Mango</option>
+        </optgroup>
+        <optgroup label="Colors">
+            <option value="Apple">Red</option>
+            <option value="Orange">Orange</option>
+            <option value="Mango">Green</option>
+        </optgroup>
+    </select>
+</body>
+</html>

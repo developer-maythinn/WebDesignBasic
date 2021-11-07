@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input types</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Enter your name</label>
+        <input 
+            type="text" 
+            spellcheck="false"
+            maxlength="5"
+            minlength="2"
+            size="50"
+            placeholder="Please type your name"
+            id="name"
+            name="name"
+            required
+            autocomplete="off"
+        >
+        <br>
+        <label for="email">Enter your email</label>
+        <input type="email" id="email" autocomplete="off" name="email">
+        <br>
+        <label for="password">Enter your password</label>
+        <input type="password" maxlength="5" id="password" autocomplete="off" name="password">
+        <br>
+        <textarea rows="10" cols="100"></textarea>
+        <br>
+        <input type="submit" value="Click me" >
+
+        <input type="button" disabled value="Button">
+        <button disabled>Button Element</button>
+    </form>
+    
+</body>
+</html>

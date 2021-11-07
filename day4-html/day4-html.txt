@@ -1,0 +1,107 @@
+https://www.tutorialspoint.com/html/html_tags_reference.htm
+
+<input>
+<label>
+<select> multiple
+<textarea>
+<button> type(button, reset, submit)
+<fieldset> group related elements in a form.
+<legend>  a caption for the <fieldset> element.
+<datalist>
+ <!-- <output> -->
+<option> selected, disabled, value
+<optgroup> disabled, label, disabled
+
+https://www.w3schools.com/html/html_form_input_types.asp
+https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Constraint_validation
+
+<input type="button"> disabled
+<input type="checkbox">
+<input type="color" value="#ff0000">https://www.tutorialspoint.com/html/html_color_names.htm
+<input type="date">
+<input type="datetime-local">
+<input type="email">
+<input type="file">
+<input type="hidden">
+<input type="image" src=""> defines an image as a submit button.
+<input type="month">
+<input type="number">
+<input type="password">
+<input type="radio">
+<input type="range">
+<input type="reset">
+<input type="search"> is used for search fields (behaves like a regular text field):
+<input type="submit">
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel
+<input type="tel"> for patten https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+<input type="text">maxLength, minlength, patten, placeholder, readonly, size, spellcheck
+<input type="time">
+<input type="url"> 
+<input type="week">
+
+type="text"
+checked,
+disabled,
+max,
+minlength
+maxLength,
+min,
+patten,
+readonly,
+required,
+size,
+value
+step
+
+**********************************************
+Global attribute
+title -> add title when use mouse hover
+lang -> Specifies the language code for the element's content(https://www.w3schools.com/tags/ref_language_codes.asp)
+contenteditable -> editable or not.
+spellcheck -> its spelling and grammar checked or not
+hidden -> for hidden element
+dir -> direction
+style -> use with css
+id 
+class
+
+**********************************************
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+https://stackoverflow.com/questions/6771258/what-does-meta-http-equiv-x-ua-compatible-content-ie-edge-do
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+https://www.w3schools.com/css/css_rwd_viewport.asp
+
+<meta charset="UTF-8">
+https://dev.to/maggiecodes_/why-is-lt-meta-charset-utf-8-gt-important-59hl
+
+    
+**********************************************
+HTML entities
+https://www.w3schools.com/html/html_entities.asp
+https://dev.w3.org/html5/html-author/charref
+
+
+
+
+<article> a self-contained composition
+
+Examples include: a blog post, forum post, newspaper article etc, etc.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/article
+https://www.tutorialspoint.com/html/html_article_tag.htm
+
+<aside> presented as sidebars 
+
+<footer> contains information about the author of the section, copyright data or links to related documents.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/footer
+
+<main> Specifies the main or important content in the document. There is only one
+element in the document
+A document mustn't have more than one <main> element that doesn't have the hidden attribute specified.
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element/main
+
+<nav>: The Navigation Section element
+
+<section>	Specifies a section in a document
