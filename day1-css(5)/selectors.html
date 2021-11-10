@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+            background: violet;
+        }
+        .class-selector{
+            background: pink;
+        }
+        p.class-selector{
+            background: yellow;
+        }
+        #id-selector{
+            background: turquoise;
+        }
+        input[type="text"]{
+            color: red;
+            background: black;
+        }
+        a[target="_blank"]{
+            color: red;
+        }
+        div, span{
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Type Selector</h1>
+    <h1 class="class-selector">Class Selector</h1>
+    <p class="class-selector">Class Selector</p>
+    <h1 id="id-selector">ID Selector</h1>
+    <input type="text">
+    <input type="email">
+    <hr>
+    <a href="#" target="_blank">Click</a>
+    <a href="#">Click</a>
+
+    <div>Hello CSS</div>
+    <span>Hello</span>
+</body>
+</html>
