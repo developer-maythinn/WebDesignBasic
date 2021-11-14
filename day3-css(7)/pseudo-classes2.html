@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo classes 2</title>
+    <style>
+        /* p:first-child{
+            background-color: blueviolet;
+        } */
+        /* p:first-of-type{
+            background-color: red;
+        } */
+        /* p:nth-child(even){
+            background-color: brown;
+        } */
+        p:only-of-type{
+            background-color: green;
+        }
+        p{
+            color: blue;
+        }
+        :not(p){
+            color: brown;
+        }
+    </style>
+  </head>
+  <body>
+    <p>This is paragraph 1</p>
+    <p>This is paragraph 2</p>
+    <p>This is paragraph 3</p>
+    <p>This is paragraph 4</p>
+    <h1>Heading 1</h1>
+    <div>
+      <p>This is paragraph 1 in div</p>
+      <p>This is paragraph 2 in div</p>
+    </div>
+    <div>
+        <p>Hello</p>
+    </div>
+    <h2>Heading 2</h2>
+    <div>
+        <p>Hello</p>
+        <p>Hello</p>
+    </div>
+  </body>
+</html>
