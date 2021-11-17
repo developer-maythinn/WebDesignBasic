@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go to link</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            height: 1000px;
+            border: 1px solid;
+        }
+        h1, h2{
+            padding: 30px;
+        }
+        h1{
+            background-color: aqua;
+        }
+        h2{
+            background-color: violet;
+        }
+        .container{
+            position: fixed;
+            bottom: 30px;
+            right: 20px;
+        }
+        .container a{
+            font-size: 20px;
+            text-decoration: none;
+            background-color: yellow;
+            padding: 10px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading1">Heading 1</h1>
+    <div class="box"></div>
+    <h2 id="heading2">Heading 2</h2>
+    <div class="box"></div>
+    <div class="container">
+        <a href="#heading1">Go to h1</a>
+        <a href="#heading2">Go to h2</a>
+    </div>
+</body>
+</html>
