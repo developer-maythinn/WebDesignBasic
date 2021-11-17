@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient</title>
+    <style>
+        div{
+            width: 300px;
+            height: 300px;
+            color: #fff;
+            margin: 20px 0px;
+            display: inline-block;
+        }
+        .simple{
+            background: linear-gradient(violet, aqua);
+        }
+        .diagonal{
+            background: linear-gradient(to left, violet, aqua);
+        }
+        .angles{
+            background: linear-gradient(-45deg, violet, aqua );
+        }
+        .multiple-color{
+            background: linear-gradient(violet, aqua, rgb(100, 73, 250));
+        }
+        .hard-line{
+            background: linear-gradient(to bottom left, violet 50%, aqua 50%);
+        }
+        .overlay{
+            background: linear-gradient(to left, transparent, violet), url("https://images.pexels.com/photos/1261459/pexels-photo-1261459.jpeg");
+            background-size: cover;
+        }
+        .radial{
+            background: radial-gradient(violet, aqua, blue);
+        }
+        .repeat-linear{
+            background: repeating-linear-gradient(violet, aqua 10%, blue 20%);
+        }
+    </style>
+</head>
+<body>
+    <div class="simple">Simple</div>
+    <div class="diagonal">diagonal</div>
+    <div class="angles">angles</div>
+    <div class="multiple-color">multiple-color</div>
+    <div class="hard-line">hard-line</div>
+    <div class="overlay">overlay</div>
+    <div class="radial">radial</div>
+    <div class="repeat-linear"></div>
+</body>
+</html>
