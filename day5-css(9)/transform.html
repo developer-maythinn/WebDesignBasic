@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            width: 100px;
+            height: 200px;
+        }
+        .translate{
+            background-color: blueviolet;
+            transform: translate(30px, 50px);
+        }
+        .scale{
+            background-color: violet;
+            margin: 50px;
+            transform: scale(1.5, 2);
+        }
+        .skew{
+            background-color: green;
+            margin: 80px;
+            transform: skew(40deg, 40deg);
+        }
+        .rotate{
+            background-color: green;
+            margin: 80px;
+            transform: rotate(30deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="translate">translate</div>
+    <div class="scale">scale</div> 
+    <div class="skew">skew</div>
+    <div class="rotate">rotate</div>
+</body>
+</html>

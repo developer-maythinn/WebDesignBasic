@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation fill mode</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+          div{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            margin: 20px;
+            border-radius: 10px;
+            position: relative;
+            animation-name: move;
+            animation-duration: 5s;
+            animation-fill-mode: both;
+            border-radius: 50%;
+            
+        }
+        @keyframes move {
+          0%{
+             background-color: hotpink;
+          }
+          25%{
+             background-color: indigo;
+          }
+          50%{
+            background-color: yellow;
+          }
+          100%{
+            background-color: red;
+          }
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+</body>
+</html>
