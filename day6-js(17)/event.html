@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>  
+    <img id="myImage" src="https://images.pexels.com/photos/10227824/pexels-photo-10227824.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+    <button onclick="change()">Change</button>
+
+    <script>
+        function change() {
+            let changeImg = document.getElementById("myImage");
+            changeImg.src = "https://images.pexels.com/photos/10131778/pexels-photo-10131778.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940";
+        }
+    </script>
+</body>
+</html>
