@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      // class Customer{
+      //     constructor(){
+      //         this.name = "John";
+      //     }
+      // }
+
+      // const customer = new Customer();
+      // console.log(customer.name)
+
+      // class Customer{
+      //     constructor(name){
+      //         this.name = name;
+      //     }
+      // }
+
+      // const customer = new Customer("John");
+      // const user = new Customer("Doe");
+      // console.log(customer.name)
+      // console.log(user.name)
+
+      class Customer {
+        constructor(name, years) {
+          this.name = name;
+          this.years = years;
+        }
+        age(currentYear){
+            return currentYear - this.years;
+        }
+      }
+
+      const customer = new Customer("John", 1995);
+      let date = new Date();
+      let currentYear = date.getFullYear(); // 2021
+      console.log(customer.age(currentYear));
+    </script>
+  </body>
+</html>
