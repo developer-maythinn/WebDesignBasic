@@ -123,7 +123,58 @@
   margin-bottom: 15px;
   font-size: 18px;
 }
-.icon-box p{
-    font-size: 15px;
-    line-height: 28px;
+.icon-box p {
+  font-size: 15px;
+  line-height: 28px;
+}
+/* ************* carousel *************/
+.custom-carousel-item {
+  height: 400px;
+  max-height: 500px;
+  margin: 0px 10px;
+  position: relative;
+}
+.custom-carousel-item .img-wrapper {
+  background-image: linear-gradient(
+    45deg,
+    #fdd044 0%,
+    #fed350 53%,
+    #a2f1de 20%,
+    #74d8bb 100%
+  );
+  width: 100%;
+  height: 300px;
+}
+.custom-carousel-item .img-wrapper img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+  position: absolute;
+  top: 33%;
+  outline: 2px solid pink;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  z-index: 1;
+}
+.custom-carousel-item p {
+  padding: 30px;
+  position: absolute;
+  top: 169px;
+  padding-top: 56px;
+  background: #fff;
+  border-radius: 20%;
+  font-size: 15px;
+}
+
+
+@media (max-width: 768px) {
+  .cover-container{
+    height: 105vh;
+  }
+  .about img {
+    margin-bottom: 60px;
+    width: 200px;
+  }
 }
