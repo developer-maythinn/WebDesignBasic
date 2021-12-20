@@ -177,4 +177,7 @@
     margin-bottom: 60px;
     width: 200px;
   }
+  .card-container{
+    height: auto;
+  }
 }
