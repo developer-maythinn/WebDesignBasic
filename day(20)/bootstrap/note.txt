@@ -1,0 +1,22 @@
+for border radius
+https://9elements.github.io/fancy-border-radius
+
+for shape
+https://www.shapedivider.app/
+
+for color
+https://www.elegantthemes.com/blog/resources/color-palette-generators
+https://www.colorhexa.com/
+https://mycolor.space/
+https://www.happyhues.co/
+https://color.adobe.com/create/color-wheel
+
+for background gradient
+https://uigradients.com/
+
+for box-shadow
+https://html-css-js.com/css/generator/box-shadow/
+
+Clip-path
+https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+https://bennettfeely.com/clippy/
